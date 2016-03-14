@@ -25,9 +25,6 @@ use RuntimeException;
  */
 trait EncryptAttributes
 {
-    /**
-     *
-     */
     public static function bootEncryptAttributes()
     {
         static::creating(function ($model) {
