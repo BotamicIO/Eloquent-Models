@@ -18,7 +18,7 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
  *
  * @author DraperStudio <hello@draperstudio.tech>
  */
-abstract class Model extends Eloquent implements ScopesContract
+abstract class Model extends Eloquent
 {
     use Traits\ScopesTrait;
 
