@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of Eloquent Models.
+ *
+ * (c) Brian Faust <hello@brianfaust.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace BrianFaust\Eloquent\Models\Utils;
 
 use Carbon\Carbon;
@@ -100,8 +109,8 @@ class DateTime
     public static function getDateTimeRange($start, $end = null, $exact = false)
     {
         return [
-            static::buildDateTime($start, !$exact),
-            static::buildDateTime($end ?: $start, false, !$exact),
+            static::buildDateTime($start, ! $exact),
+            static::buildDateTime($end ?: $start, false, ! $exact),
         ];
     }
 
