@@ -125,7 +125,7 @@ trait EncryptAttributes
         $method = defined('SECURE_DOT_ENV') ? 'sec_env' : 'env';
 
         return [
-            'key' => $method('DB_KEY'),
+            'key'    => $method('DB_KEY'),
             'cipher' => $method('DB_CIPHER', 'AES-256-CBC'),
         ];
     }
