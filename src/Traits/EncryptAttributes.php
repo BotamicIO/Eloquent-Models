@@ -13,12 +13,12 @@ declare(strict_types=1);
 
 namespace BrianFaust\Eloquent\Models\Traits;
 
-use RuntimeException;
-use Illuminate\Encryption\Encrypter;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Encryption\McryptEncrypter;
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Contracts\Encryption\EncryptException;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Encryption\Encrypter;
+use Illuminate\Encryption\McryptEncrypter;
+use RuntimeException;
 
 trait EncryptAttributes
 {
