@@ -1,19 +1,19 @@
 {
-    "name": "faustbrian/eloquent-models",
+    "name": "artisanry/eloquent-models",
     "description": "Adds basic models for Laravel",
-    "keywords": ["laravel", "framework", "Eloquent-Models", "Eloquent Models", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Eloquent-Models", "Eloquent Models"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
+        "email": "hello@basecode.sh",
+        "homepage": "https://basecode.sh"
     }],
     "require": {
         "php": "^7.1",
         "illuminate/support": "^5.6",
         "illuminate/database": "^5.6",
         "nesbot/carbon": "^1.22",
-        "faustbrian/eloquent-schema": "^1.0"
+        "artisanry/eloquent-schema": "^1.0"
     },
     "require-dev": {
         "graham-campbell/testbench": "^5.0",
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Models\\": "src/"
+            "Artisanry\\Models\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Models\\": "tests"
+            "Artisanry\\Tests\\Models\\": "tests"
         }
     },
     "config": {
